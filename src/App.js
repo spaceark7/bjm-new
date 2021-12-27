@@ -4,10 +4,11 @@ import ProjectBrand from './components/ProjectBrand'
 import ServiceBrand from './components/Service'
 import menu from 'react-useanimations/lib/menu3'
 import { MdOutlinePlace } from 'react-icons/md'
-import { BsWhatsapp, BsTelephone } from 'react-icons/bs'
-import { IoMailOutline } from 'react-icons/io5'
+import { FaFacebookF, FaGoogle } from 'react-icons/fa'
+
 import UseAnimations from 'react-useanimations'
 import { useState } from 'react'
+import Contact from './components/contact'
 
 function App() {
   const [isOpen, setOpen] = useState(false)
@@ -108,57 +109,50 @@ function App() {
         </div> */}
 
           {/* <div className='w-1/2 h-1 bg-gray-400 flex mx-auto'></div> */}
-
-          <div className='py-8 w-full h-full'>
-            <div className='px-4 pb-8'>
-              <h3 className='text-4xl w-1/2 pr-14 border-r-2 font-brand-primary font-semibold'>
-                <span className='text-brand-primary'>Hubungi</span> Kami
-              </h3>
-              <div className='py-2 '>
-                <p>Kami siap untuk membantu anda</p>
+        </div>
+        <Contact />
+      </main>
+      <div className='w-full  bg-brand-primary py-4 px-2'>
+        <div className=' w-1/3 py-5 px-2 w-full flex items-center justify-start'>
+          <img className='h-full' src='/images/BJM_NAV.png' alt='' />
+        </div>
+        <div className='w-full px-2 py-4 text-white'>
+          <h1 className='text-lg'>Temukan Kami di Jejaring Sosial</h1>
+          <div className='flex px-4 py-4 opacity-80 space-x-4'>
+            <a
+              rel='noreferrer'
+              target='_blank'
+              href='https://www.facebook.com/BJMCianjur/'
+            >
+              <div className='rounded-full py-2 px-2 bg-white'>
+                <FaFacebookF className='text-brand-primary text-3xl' />
               </div>
-            </div>
-
-            <div className='flex space-y-8 px-4 flex-col  '>
+            </a>
+            <div className='rounded-full py-2 px-2 bg-white'>
               <a
+                rel='noreferrer'
                 target='_blank'
-                rel='noreferrer'
-                href='https://wa.me/+6282124603889'
+                href='https://g.co/kgs/kYUSgS'
               >
-                <div className='flex flex-row space-x-2 items-center justify-items-start text-xl '>
-                  <BsWhatsapp />
-
-                  <p className='font-brand-primary tracking-wider'>
-                    0821-2460-3889
-                  </p>
-                </div>
-              </a>
-              <a target={'_blank'} rel='noreferrer' href='tel:+6282124603889'>
-                <div className='flex space-x-2 items-center text-xl '>
-                  <BsTelephone />
-
-                  <p className='font-brand-primary tracking-wider'>
-                    0821-2460-3889
-                  </p>
-                </div>
-              </a>
-              <a
-                target={'_blank'}
-                rel='noreferrer'
-                href='mailto:aris.yuni.13@gmail.com'
-              >
-                <div className='flex space-x-2 items-center text-xl '>
-                  <IoMailOutline />
-
-                  <p className='font-brand-primary tracking-wider'>
-                    aris.yuni.13@gmail.com
-                  </p>
-                </div>
+                <FaGoogle className='text-brand-primary text-3xl' />
               </a>
             </div>
           </div>
         </div>
-      </main>
+
+        <div className='w-full flex flex-col text-center mt-4 py-4 text-sm text-white '>
+          <p className='opacity-70'>This Website created by</p>
+          <a
+            rel='noreferrer'
+            target='_blank'
+            href='https://www.instagram.com/explorecreativedesign/'
+          >
+            <p className='text-lg font-semibold text-yellow-400'>
+              Explore Creative Design
+            </p>
+          </a>
+        </div>
+      </div>
     </div>
   )
 }

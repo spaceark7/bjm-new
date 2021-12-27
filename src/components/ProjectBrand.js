@@ -1,4 +1,11 @@
 import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/navigation'
+
+import SwiperCore, { Pagination, Navigation, Autoplay } from 'swiper'
+SwiperCore.use([Pagination, Navigation, Autoplay])
 
 const ProjectBrand = () => {
   return (
@@ -31,6 +38,61 @@ const ProjectBrand = () => {
           <p>Proyek telah memesan produk kami.</p>
         </div>
       </div>
+      <Swiper
+        loop={true}
+        spaceBetween={20}
+        centeredSlides={true}
+        slidesPerView={1}
+        autoplay={{
+          delay: 2000,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+      >
+        <SwiperSlide className='mb-11'>
+          <img
+            className='w-full h-60 object-cover'
+            src='/images/proyek/1.webp'
+            alt='proyek BJM'
+          />
+        </SwiperSlide>
+        <SwiperSlide className='mb-11'>
+          <img
+            className='w-full h-60 object-cover'
+            src='/images/proyek/2.webp'
+            alt='proyek BJM'
+          />
+        </SwiperSlide>
+        <SwiperSlide className='mb-11'>
+          <img
+            className='w-full h-60 object-cover'
+            src='/images/proyek/3.webp'
+            alt='proyek BJM'
+          />
+        </SwiperSlide>
+        <SwiperSlide className='mb-11'>
+          <img
+            className='w-full h-60 object-cover'
+            src='/images/proyek/4.webp'
+            alt='proyek BJM'
+          />
+        </SwiperSlide>
+        <SwiperSlide className='mb-11'>
+          <img
+            className='w-full h-60 object-cover'
+            src='/images/proyek/5.webp'
+            alt='proyek BJM'
+          />
+        </SwiperSlide>
+        <SwiperSlide className='mb-11'>
+          <img
+            className='w-full h-60 object-cover'
+            src='/images/proyek/6.webp'
+            alt='proyek BJM'
+          />
+        </SwiperSlide>
+      </Swiper>
       <div className='px-6 text-xl font-brand-text pt-4 pb-4'>
         <h1>
           Kami memberikan yang terbaik untuk pelanggan dengan harga yang

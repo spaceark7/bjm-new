@@ -4,9 +4,13 @@ const Banner = () => {
   return (
     <div className='banner px-4 pt-6 flex flex-col justify-center h-[80vh]'>
       <div className='w-1/2 py-4'>
-        <img src='/images/logo_main.png' alt='' />
+        <img
+          className='w-full h-full'
+          src='/images/main_logo.png'
+          alt='logo bjm'
+        />
       </div>
-      <div className=' pb-6'>
+      <div className=' pb-6 pt-4'>
         <h1 className='font-brand-primary font-bold text-4xl text-brand-primary '>
           Produsen Bronjong Terbaik.
         </h1>

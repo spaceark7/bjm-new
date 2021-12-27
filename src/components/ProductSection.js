@@ -7,6 +7,7 @@ import 'swiper/css/pagination'
 
 import SwiperCore, { Pagination } from 'swiper'
 import CardProduct from './CardProduct'
+import HarmonikaCard from './CardProductHarmonika'
 
 SwiperCore.use([Pagination])
 
@@ -70,7 +71,7 @@ const ProductSection = () => {
             >
               {productList.harmonika.map((product, index) => (
                 <SwiperSlide className='mb-11' key={product.id}>
-                  <CardProduct product={product} />
+                  <HarmonikaCard product={product} />
                 </SwiperSlide>
               ))}
             </Swiper>

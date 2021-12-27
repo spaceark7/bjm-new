@@ -3,7 +3,6 @@ import { BsTruck } from 'react-icons/bs'
 import { MdOutlineVerified } from 'react-icons/md'
 import { FaRegHandshake } from 'react-icons/fa'
 import CardService from './CardService'
-import TitleBrand from './TitleBrand'
 
 const ServiceBrand = () => {
   return (
