@@ -6,11 +6,11 @@ import CardService from './CardService'
 
 const ServiceBrand = () => {
   return (
-    <div className='px-4 py-5  h-full w-full  '>
+    <div className='px-4 py-5 md:px-8  h-full w-full xl:py-32 xl:px-40'>
       <h3 className='text-4xl w-1/2 pr-14 border-r-2 font-brand-primary font-semibold'>
         Kenapa <span className='text-brand-primary'>Memilih</span> Kami?
       </h3>
-      <div className='w-full pt-4 flex flex-col items-center mt-6 gap-y-6 py-8'>
+      <div className='w-full pt-4 flex flex-col  items-center mt-6 gap-y-6 space-y-4 py-8 md:flex-row md:gap-y-0 md:gap-x-3 md:max-h-full lg:space-y-0 lg:space-x-5 2xl:justify-center '>
         <CardService
           icon={<BsTruck />}
           title='Siap Antar'

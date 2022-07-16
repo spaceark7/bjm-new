@@ -1,7 +1,7 @@
 const productList = {
   bronjong: [
     {
-      id: 1,
+      id: '1',
       name: 'Bronjong Mesh 8mmx10mm',
       specification: {
         volume: '1 Meter Kubik',
@@ -10,14 +10,14 @@ const productList = {
           width: '1m',
           length: '2m',
         },
-        frame: '0.5mm',
-        wire: '0.35mm',
+        frame: '3,4mm',
+        wire: '2.7mm',
       },
       Image: '/images/8x10.webp',
     },
     {
-      id: 2,
-      name: 'Bronjong Mesh 10mmx15mm',
+      id: '2',
+      name: 'Bronjong Mesh 10mmx12mm',
       specification: {
         volume: '1 Meter Kubik',
         dimension: {
@@ -25,13 +25,13 @@ const productList = {
           width: '1m',
           length: '2m',
         },
-        frame: '0.5mm',
-        wire: '0.35mm',
+        frame: '3,4mm',
+        wire: '2.7mm',
       },
       Image: '/images/10x12.webp',
     },
     {
-      id: 3,
+      id: '3',
       name: 'Bronjong Mesh 15mmx17mm',
       specification: {
         volume: '1 Meter Kubik',
@@ -40,13 +40,13 @@ const productList = {
           width: '1m',
           length: '2m',
         },
-        frame: '0.5mm',
-        wire: '0.35mm',
+        frame: '3,4mm',
+        wire: '2.7mm',
       },
       Image: '/images/15x17.webp',
     },
     {
-      id: 4,
+      id: '4',
       name: 'Bronjong Mesh 17mmx20mm',
       specification: {
         volume: '1 Meter Kubik',
@@ -55,16 +55,16 @@ const productList = {
           width: '1m',
           length: '2m',
         },
-        frame: '0.5mm',
-        wire: '0.35mm',
+        frame: '3,4mm',
+        wire: '2.7mm',
       },
       Image: '/images/17x20.webp',
     },
   ],
   harmonika: [
     {
-      id: 1,
-      name: 'Kawat Harmonika Tebal 1,6mm',
+      id: '1',
+      name: 'Kawat Harmonika 1,6mm',
       specification: {
         size: [
           '5,5cm x 5,5cm',
@@ -83,8 +83,8 @@ const productList = {
     },
 
     {
-      id: 2,
-      name: 'Kawat Harmonika Tebal 2mm',
+      id: '2',
+      name: 'Kawat Harmonika 2mm',
       specification: {
         size: [
           '5,5cm x 5,5cm',
@@ -102,8 +102,8 @@ const productList = {
       Image: '/images/harmonika/harmonika-2.webp',
     },
     {
-      id: 3,
-      name: 'Kawat Harmonika Tebal 2.7mm',
+      id: '3',
+      name: 'Kawat Harmonika 2.7mm',
       specification: {
         size: [
           '5,5cm x 5,5cm',
@@ -121,8 +121,8 @@ const productList = {
       Image: '/images/harmonika/harmonika-3.webp',
     },
     {
-      id: 4,
-      name: 'Kawat Harmonika Tebal 3mm',
+      id: '4',
+      name: 'Kawat Harmonika 3mm',
       specification: {
         size: ['5,5cm x 5,5cm', '5cm x 5cm', '4cm x 4cm', '3cm x 3cm'],
         thickness: '3mm',
@@ -130,8 +130,8 @@ const productList = {
       Image: '/images/harmonika/harmonika-4.webp',
     },
     {
-      id: 5,
-      name: 'Kawat Harmonika Tebal 4mm',
+      id: '5',
+      name: 'Kawat Harmonika 4mm',
       specification: {
         size: ['5cm x 5cm', '4cm x 4cm'],
         thickness: '4mm',
